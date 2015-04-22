@@ -1,0 +1,55 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+.bs-clearfix {
+  @include clearfix;
+}
+.bs-center-block {
+  @include center-block;
+}
+.bs-pull-right {
+  float: right !important;
+}
+.bs-pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.bs-hide {
+  display: none !important;
+}
+.bs-show {
+  display: block !important;
+}
+.bs-invisible {
+  visibility: hidden;
+}
+.bs-text-hide {
+  @include text-hide;
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.bs-hidden {
+  display: none !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.bs-affix {
+  position: fixed;
+}

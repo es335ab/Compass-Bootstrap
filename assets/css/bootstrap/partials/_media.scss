@@ -1,0 +1,61 @@
+.bs-media {
+  // Proper spacing between instances of .media
+  margin-top: 15px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.bs-media,
+.bs-media-body {
+  zoom: 1;
+  overflow: hidden;
+}
+
+.bs-media-body {
+  width: 10000px;
+}
+
+.bs-media-object {
+  display: block;
+}
+
+.bs-media-right,
+.bs-media > .bs-pull-right {
+  padding-left: 10px;
+}
+
+.bs-media-left,
+.bs-media > .bs-pull-left {
+  padding-right: 10px;
+}
+
+.bs-media-left,
+.bs-media-right,
+.bs-media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.bs-media-middle {
+  vertical-align: middle;
+}
+
+.bs-media-bottom {
+  vertical-align: bottom;
+}
+
+// Reset margins on headings for tighter default spacing
+.bs-media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+// Media list variation
+//
+// Undo default ul/ol styles
+.bs-media-list {
+  padding-left: 0;
+  list-style: none;
+}

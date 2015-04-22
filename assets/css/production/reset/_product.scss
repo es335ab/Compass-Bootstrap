@@ -1,0 +1,18 @@
+/*
+ * reset product
+ * Bootstrap のリセットスタイルに準じる
+ */
+
+body {
+  word-wrap: break-word;
+  // color: #333;
+  // font-size: 14px;
+  // line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+input[type="text"],
+textarea {
+  outline-width: 0;
+}

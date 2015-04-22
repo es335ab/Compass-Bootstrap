@@ -1,0 +1,16 @@
+/*
+ * common
+ */
+
+@charset "UTF-8";
+
+@import "compass";
+//@import "reset/normalize"; normarizeはbootstrapが入れているからいらない。
+@import "bootstrap/all";
+@import "production/var/setting";
+@import "production/var/sprite";
+@import "production/function/all";
+@import "production/reset/product";
+@import "production/util/all";
+@import "production/layout/all";
+@import "production/module/all";

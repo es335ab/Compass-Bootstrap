@@ -1,0 +1,10 @@
+/*
+ * functions/createSprite
+ * スプライトを作る用のextend
+ */
+
+@mixin createSprite($target) {
+  @include sprite-position($target);
+  @include sprite-width($target);
+  @include sprite-height($target);
+}
