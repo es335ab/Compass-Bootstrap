@@ -1,0 +1,12 @@
+/*
+ * module/sprite
+ */
+
+.prod-mod-spr {
+  @include sprite-image($iconContributing);
+  @include inline-block();
+
+  &.is-iconContributing {
+    @include createSprite($iconContributing);
+  }
+}
